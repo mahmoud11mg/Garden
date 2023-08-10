@@ -384,7 +384,7 @@
 /* dark mood */
 .darkweb {
 	background: #151521;
-	color: #fff;
+  color: #fff!important;
  	filter:alpha(opacity=70);
 } 
 .one-quarter {
