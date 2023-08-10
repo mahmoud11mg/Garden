@@ -6,6 +6,110 @@
   }
   /* navbar */
 
+  .brand{
+    -webkit-animation: cog 20s infinite;
+    -moz-animation: cog 20s infinite;
+    -ms-animation: cog 20s infinite;
+    animation: cog 20s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    animation-timing-function: linear	;
+    }
+
+    
+     /* Media Query for Mobile Devices */
+     @media (max-width: 480px) {
+      .brand {
+        margin-bottom: -6%;
+        margin-left: 67%;
+            font-size: 21% !important;
+      }
+    }
+    
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+      .brand {
+        margin-bottom: -6%;
+        margin-left: 67%;
+            font-size: 21% !important;;
+       
+      }
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+      .brand {
+        margin-left: 85%;
+        margin-bottom: -5% ;
+        width: 20%;
+  
+      }
+    }
+    
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px){
+      .brand {
+        margin-left: 100px;
+        width: 50%;
+     
+      }
+    }
+    
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+      .brand {
+
+      }
+    }
+    
+
+    /* brand-p */
+    
+     /* Media Query for Mobile Devices */
+     @media (max-width: 480px) {
+      .brand-p {
+        position: absolute;  right: 60%;  top: 22px;  font-size: 26px;
+      }
+    }
+    
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+      .brand-p {
+        position: absolute;
+        right: 26%;
+        top: 22px;
+        font-size: 26px;
+      }
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+      .brand-p {
+        position: absolute;
+        right: 12%;
+        top: 29px;
+        font-size: 15px;
+      }
+    }
+    
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px){
+      .brand-p {
+        position: absolute; 
+        right: 12%;
+        top: 32px;
+        font-size: 18px;
+      }
+    }
+    
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+      .brand-p {
+        position: absolute;  right: 20%;  top: 22px;  font-size: 24px;
+      }
+    }
+    
 
 .bg-body-tertiary{
     background-color: #008000!important;
@@ -250,17 +354,6 @@ background-repeat: no-repeat;
 
 /*  footer */
 
-.brand{
-  
-  -webkit-animation: cog 20s infinite;
--moz-animation: cog 20s infinite;
--ms-animation: cog 20s infinite;
-animation: cog 20s infinite;
--webkit-animation-timing-function: linear;
--moz-animation-timing-function: linear;
--ms-animation-timing-function: linear;
-animation-timing-function: linear	;
-}
 .img-ba{
   width: 25%;
   height: 30%;
