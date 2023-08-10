@@ -1830,7 +1830,7 @@ hr {
   position: relative;
 }
 .ht-popup-video .icon {
-  background-color: #008000;
+
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -1841,27 +1841,7 @@ hr {
   position: absolute;
   left: 100px;
  }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .ht-popup-video .icon {
-    height: 48px;
-    line-height: 48px;
-    width: 48px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .ht-popup-video .icon {
-    height: 35px;
-    line-height: 35px;
-    width: 35px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .ht-popup-video .icon {
-    height: 35px;
-    line-height: 35px;
-    width: 35px;
-  }
-}
+
 .ht-popup-video span {
   color: #1D3557;
   font-size: 18px;
@@ -8000,22 +7980,7 @@ textarea, input {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-content .ht-popup-video .icon {
-    font-size: 18px;
-    height: 50px;
-    line-height: 50px;
-    width: 50px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .about-content .ht-popup-video .icon {
-    font-size: 14px;
-    height: 35px;
-    line-height: 33px;
-    width: 35px;
-  }
-}
+
 .about-content .ht-popup-video:hover span {
 
 }
