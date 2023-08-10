@@ -663,24 +663,30 @@
 </footer>
 <!-- Footer -->
 
-
+<a href="https://wa.me/0575529736" class="btn btn- whatsapp-a ">
+  <i class="fa fa-whatsapp fa-2xl whatsapp "></i>
+</a>
 
 <!-- modal -->
 <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-  
-     <video id="VisaChipCardVideo" width="100%" height="80%" controls autoplay></video>
+    <div class="modal-content ">
+      
+      <div class="square-video-container">
+        <video id="VisaChipCardVideo"   controls autoplay></video>
+    </div>
+
      
     
     </div>
   </div>
 </div>
 
-<a href="#top" data-target="html" class="scroll-to-target scroll-to-top"
+<!-- <a href="#top" data-target="html" class="scroll-to-target scroll-to-top"
  style="display: inline;">
-  <i class="fa fa-angle-up fa-lg"></i></a>
+  <i class="fa fa-angle-up fa-lg"></i></a> -->
   
+  <button id="scrollToTopBtn" class="scroll-to-top-btn"> <i class="fa fa-angle-up fa-lg"></i></button>
 <!-- end modal  -->
 <!-- script -->
 
@@ -690,23 +696,8 @@
 <script src="src/js/style-mahmoud.js"></script>
 
 
-<script> const myMenu = document.getElementById('nav-item');
 
-  myMenu.onclick=e=>  // JS event delegation
-    {
-    if (e.target.tagName.toLowerCase() != '.nav-item' ) return; // only
-    e.preventDefault;
-    let LI = e.target.parentElement;
-  
-    if (!LI.classList.contains('active'))
-      {
-      myMenu.querySelector('li.active').classList.remove('active');
-      }
-    LI.classList.add('active');
-    
-    }
-    
-  </script>
+ 
     <!-- end script -->
 </body>
 </html>
