@@ -53,8 +53,8 @@
       /* Media Query for Mobile Devices */
      @media (max-width: 480px) {
       .brand {
-        margin-bottom: -6%;
-        margin-left: 67%;
+        margin-bottom: -13%;
+    margin-left: 46%;
             font-size: 21% !important;
       }
     }
@@ -94,15 +94,7 @@
 
       }
     }
-     /* Media Query for Mobile Devices */
-     @media (max-width: 480px) {
-      .brand {
-        margin-bottom: -6%;
-        margin-left: 67%;
-            font-size: 21% !important;
-      }
-    }
-    
+
     /* Media Query for low resolution  Tablets, Ipads */
     @media (min-width: 481px) and (max-width: 767px) {
       .brand {
@@ -146,7 +138,10 @@
      /* Media Query for Mobile Devices */
      @media (max-width: 480px) {
       .brand-p {
-        position: absolute;  right: 60%;  top: 22px;  font-size: 26px;
+        position: absolute; 
+        right: 36%;
+        top: 22px;
+        font-size: 26px;
         color: #fff!important;
       }
     }
