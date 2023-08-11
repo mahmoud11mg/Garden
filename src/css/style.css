@@ -566,15 +566,45 @@ animation-timing-function: linear	;
 
   display: none;
 }
-/* carousel-p */
+/* carousel*/
+
+
 .carousel-p{
   color: #000;
 font-size: xx-large;
 margin-left: 50%;
 margin-top: -20%;
 }
-  
 
+   @media (max-width: 480px) {
+    .carousel ,.carousel-indicators , .carousel-inner , .img-carousel {
+ 
+      height: 210px;
+    }
+   
+    }
+      /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+      .carousel ,.carousel-indicators , .carousel-inner , .img-carousel {
+ 
+        height: 210px;
+      }
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+      .carousel ,.carousel-indicators , .carousel-inner , .img-carousel {
+ 
+        height: 210px;
+      }
+    }
+    .img-carousel{
+      display: block; 
+      width: 100%;
+ 
+    }
+
+    
 
 /* whatsapp */
 
@@ -592,7 +622,7 @@ margin-top: -20%;
     @media (max-width: 480px) {
       .whatsapp-a {
         position: fixed;
-        top:140px; /* adjust as needed */
+        top:305px; /* adjust as needed */
         right:1px; /* adjust as needed */
        
       }
