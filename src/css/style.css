@@ -263,6 +263,152 @@
     -o-transform: rotate(360deg)  ;
     
 }
+
+.p-work {
+  font-size: 15px;
+  font-weight: bold;
+}
+.ol-work {
+  list-style: none;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+.h4-work {
+font-weight: bold;
+font-size: 20px;
+}
+.h2-work{
+  font-weight: bold;
+  font-size: 20px;
+}
+/*  hide Mobile div  */
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .hi{
+      display: none;
+    }
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 767px) {
+      .hi{
+      display: none;
+    }
+  }
+/* hide Mobile div */
+
+ /* Media Query for Mobile Devices */
+     @media (max-width: 480px) {
+      .p-work {
+        font-size: 15px;
+   
+      }
+      .ol-work {
+        list-style: none;
+        text-align: right;
+        font-size: 17px;
+       
+      }
+      .h4-work {
+     
+      font-size: 23px;
+      }
+      .h2-work{
+     
+        font-size: 25px;
+      }
+    }
+    
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+      .p-work {
+        font-size: 25px;
+   
+      }
+      .ol-work {
+        list-style: none;
+        text-align: right;
+        font-size: 24px;
+       
+      }
+      .h4-work {
+     
+      font-size: 34px;
+      }
+      .h2-work{
+     
+        font-size: 36px;
+      }
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+      .p-work {
+        font-size: 22px;
+   
+      }
+      .ol-work {
+        list-style: none;
+        text-align: right;
+        font-size: 23px;
+       
+      }
+      .h4-work {
+     
+      font-size: 32px;
+      }
+      .h2-work{
+     
+        font-size: 34px;
+      }
+    }
+    
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px){
+      .p-work {
+        font-size: 23px;
+   
+      }
+      .ol-work {
+        list-style: none;
+        text-align: right;
+        font-size: 21px;
+       
+      }
+      .h4-work {
+     
+      font-size: 32px;
+      }
+      .h2-work{
+     
+        font-size: 34px;
+      }
+    }
+    
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+      .p-work {
+        font-size: 15px;
+   
+      }
+      .ol-work {
+        list-style: none;
+        text-align: right;
+        font-size: 18px;
+       
+      }
+      .h4-work {
+     
+      font-size: 30px;
+      }
+      .h2-work{
+     
+        font-size: 32px;
+      }
+    }
+
+
 /* services_table */
 .services_table{
   width: auto;
@@ -278,8 +424,6 @@
        overflow: hidden;
      margin-left: 0px !important;
   }
-
-
 
 .services_table .priec_box:hover {
     margin: 0%;
@@ -404,7 +548,7 @@
         line-height: 60px !important;
         font-size: 31px !important;
         position: absolute !important;
-        left:100px !important;
+        left:222px !important;
       }
     }
     
@@ -633,7 +777,7 @@ margin-top: -20%;
     @media (min-width: 481px) and (max-width: 767px) {
       .whatsapp-a {
         position: fixed;
-        top:150px; /* adjust as needed */
+        top:300px; /* adjust as needed */
         right:1px; /* adjust as needed */
       }
     }
@@ -642,7 +786,7 @@ margin-top: -20%;
     @media (min-width: 768px) and (max-width: 1024px){
       .whatsapp-a {
         position: fixed;
-        top:180px; /* adjust as needed */
+        top:300px; /* adjust as needed */
        right:1px; /* adjust as needed */
       
       }
@@ -661,7 +805,7 @@ margin-top: -20%;
     @media (min-width: 1281px) {
       .whatsapp-a {
         position: fixed;
-        top:200px; /* adjust as needed */
+        top:320px; /* adjust as needed */
         right:1px; /* adjust as needed */
     
 }
