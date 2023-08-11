@@ -115,41 +115,7 @@
      
       }
     }
-    
- 
 
-    /* Media Query for low resolution  Tablets, Ipads */
-    @media (min-width: 481px) and (max-width: 767px) {
-      .brand {
-        margin-bottom: -6%;
-        margin-left: 67%;
-            font-size: 21% !important;;
-       
-      }
-    }
-    
-    /* Media Query for Tablets Ipads portrait mode */
-    @media (min-width: 768px) and (max-width: 1024px){
-      .brand {
-        margin-left: -66%;
-        margin-bottom: 1%;
-        width: 20%;
-  
-      }
-    }
-    
-    /* Media Query for Laptops and Desktops */
-    @media (min-width: 1025px) and (max-width: 1280px){
-      .brand {
-        margin-left: 2px;
-        width: 20%;
-        
-     
-      }
-    }
-    
-    /* Media Query for Large screens */
- 
     
 
     /* brand-p */
@@ -312,27 +278,7 @@
        overflow: hidden;
      margin-left: 0px !important;
   }
-  @keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-.fadeInDown {
-  animation-name: fadeInDown;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
-.delay-2s {
-  animation-delay: 2s;
-}
 
 
 .services_table .priec_box:hover {
@@ -540,12 +486,7 @@
       color: #fff;
 }
 /* dark mood */
-.carousel-item p{
-    color: #000;
-font-size: xx-large;
-margin-left: 50%;
- margin-top: -20%;
-}
+
 /* footer */
 .text-muted {
   --bs-text-opacity: 1;
@@ -625,9 +566,14 @@ animation-timing-function: linear	;
 
   display: none;
 }
-
-
-
+/* carousel-p */
+.carousel-p{
+  color: #000;
+font-size: xx-large;
+margin-left: 50%;
+margin-top: -20%;
+}
+  
 
 
 /* whatsapp */
