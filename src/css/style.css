@@ -575,10 +575,15 @@ font-size: 20px;
 .square-video-container video {
   position: absolute;
   width: 56%;
-  /* height: auto; */
-  top: 50%;
+  /*height: auto;
+  */top: 50%;
   left: 54%;
   transform: translate(-50%, -50%);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
   /* Media Query for Laptops and Desktops */
@@ -586,11 +591,16 @@ font-size: 20px;
     .square-video-container video {
       position: absolute;
       width: 40%;
-      /* height: auto; */
-      /* top: 40%; */
-      left: 54%;
+      /*height: auto;
+      *//*top: 40%;
+      */left: 54%;
       transform: translate(-50%, -50%);
-    }
+      border-radius: 40px    ;
+      -webkit-border-radius: 40px    ;
+      -moz-border-radius: 40px    ;
+      -ms-border-radius: 40px    ;
+      -o-border-radius: 40px    ;
+}
   }
 .modal-content{
   background:none ;
