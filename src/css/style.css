@@ -498,7 +498,7 @@ font-size: 20px;
 
 .square-video-container {
   position: relative;
-  padding-top: 20%; /* Create a square container using padding */
+  padding-top: 60%; /* Create a square container using padding */
   padding-bottom: 90%; /* Create a square container using padding */
   padding-left: 70%; /* Create a square container using padding */
   padding-right: 70%; /* Create a square container using padding */
@@ -510,12 +510,12 @@ font-size: 20px;
      @media (max-width: 480px) {
       .square-video-container {
         position: relative;
-        padding-top: 20%; /* Create a square container using padding */
-        padding-bottom: 90%; /* Create a square container using padding */
-        padding-left: 70%; /* Create a square container using padding */
-        padding-right: 70%; /* Create a square container using padding */
+         padding-top: 60%; /* Create a square container using padding */
+        /* padding-bottom: 90%; /* Create a square container using padding */
+       /*  padding-left: 70%; /* Create a square container using padding */
+        /* padding-right: 70%; /* Create a square container using padding */
         overflow: hidden;
-        left: 60px !important;
+        left: 40px !important;
       }
    
     }
@@ -524,12 +524,12 @@ font-size: 20px;
     @media (min-width: 481px) and (max-width: 767px) {
       .square-video-container {
         position: relative;
-        padding-top: 20%; /* Create a square container using padding */
-        padding-bottom: 90%; /* Create a square container using padding */
-        padding-left: 70%; /* Create a square container using padding */
-        padding-right: 70%; /* Create a square container using padding */
+        padding-top: 60%; /* Create a square container using padding */
+        /* padding-bottom: 90%; /* Create a square container using padding */
+         /*padding-left: 70%; /* Create a square container using padding */
+         /*padding-right: 70%; /* Create a square container using padding */
         overflow: hidden;
-        left: 60px !important;
+        left: 40px !important;
       }
     }
     
@@ -537,12 +537,12 @@ font-size: 20px;
     @media (min-width: 768px) and (max-width: 1024px){
       .ht-popup-video .icon {
         position: relative;
-        padding-top: 20%; /* Create a square container using padding */
-        padding-bottom: 90%; /* Create a square container using padding */
-        padding-left: 70%; /* Create a square container using padding */
-        padding-right: 70%; /* Create a square container using padding */
+        padding-top: 60%; /* Create a square container using padding */
+         /*padding-bottom: 90%; /* Create a square container using padding */
+        /* padding-left: 70%; /* Create a square container using padding */
+        /* padding-right: 70%; /* Create a square container using padding */
         overflow: hidden;
-        left: 60px !important;
+        left: 40px !important;
       
       
       }
@@ -552,23 +552,46 @@ font-size: 20px;
     @media (min-width: 1025px) and (max-width: 1280px){
       .square-video-container {
         position: relative;
-        padding-top: 20%; /* Create a square container using padding */
-        padding-bottom: 90%; /* Create a square container using padding */
-        padding-left: 70%; /* Create a square container using padding */
-        padding-right: 70%; /* Create a square container using padding */
+        padding-top: 60%; /* Create a square container using padding */
+         /*padding-bottom: 90%; /* Create a square container using padding */
+         /*padding-left: 70%; /* Create a square container using padding */
+         /*padding-right: 70%; /* Create a square container using padding */
         overflow: hidden;
-        left: 60px !important;
+        left: 40px !important;
+      }
+    }
+    @media (min-width: 1281px){
+      .square-video-container {
+        position: relative;
+        padding-top: 30%; /* Create a square container using padding */
+         /*padding-bottom: 90%; /* Create a square container using padding */
+         /*padding-left: 70%; /* Create a square container using padding */
+         /*padding-right: 70%; /* Create a square container using padding */
+        overflow: hidden;
+        left: 40px !important;
       }
     }
 
 .square-video-container video {
   position: absolute;
-  width: 100%;
-  height: auto;
+  width: 56%;
+  /* height: auto; */
   top: 50%;
-  left: 50%;
+  left: 54%;
   transform: translate(-50%, -50%);
 }
+
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1281px){
+    .square-video-container video {
+      position: absolute;
+      width: 40%;
+      /* height: auto; */
+      /* top: 40%; */
+      left: 54%;
+      transform: translate(-50%, -50%);
+    }
+  }
 .modal-content{
   background:none ;
   border: none;
