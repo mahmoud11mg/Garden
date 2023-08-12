@@ -169,9 +169,9 @@
     @media (min-width: 1281px) {
       .brand-p {
         position: absolute; 
-         right: 16%; 
-          top: 22px;
-            font-size: 24px;
+        right: 16%;
+        top: 26px;
+        font-size: 22px;
         color: #fff!important;
       }
     }
