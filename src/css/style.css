@@ -168,7 +168,10 @@
     /* Media Query for Large screens */
     @media (min-width: 1281px) {
       .brand-p {
-        position: absolute;  right: 20%;  top: 22px;  font-size: 24px;
+        position: absolute; 
+         right: 16%; 
+          top: 22px;
+            font-size: 24px;
         color: #fff!important;
       }
     }
@@ -268,12 +271,7 @@
   font-size: 15px;
   font-weight: bold;
 }
-.ol-work {
-  list-style: none;
-  text-align: right;
-  font-size: 16px;
-  font-weight: bold;
-}
+
 .h4-work {
 font-weight: bold;
 font-size: 20px;
@@ -281,6 +279,7 @@ font-size: 20px;
 .h2-work{
   font-weight: bold;
   font-size: 20px;
+  margin-left: 113px;
 }
 /*  hide Mobile div  */
   /* Media Query for Mobile Devices */
@@ -310,10 +309,7 @@ font-size: 20px;
         font-size: 17px;
        
       }
-      .h4-work {
-     
-      font-size: 23px;
-      }
+    
       .h2-work{
      
         font-size: 25px;
@@ -332,10 +328,7 @@ font-size: 20px;
         font-size: 24px;
        
       }
-      .h4-work {
      
-      font-size: 34px;
-      }
       .h2-work{
      
         font-size: 36px;
@@ -354,10 +347,7 @@ font-size: 20px;
         font-size: 23px;
        
       }
-      .h4-work {
      
-      font-size: 32px;
-      }
       .h2-work{
      
         font-size: 34px;
@@ -376,10 +366,7 @@ font-size: 20px;
         font-size: 21px;
        
       }
-      .h4-work {
-     
-      font-size: 32px;
-      }
+      
       .h2-work{
      
         font-size: 34px;
@@ -398,10 +385,7 @@ font-size: 20px;
         font-size: 18px;
        
       }
-      .h4-work {
-     
-      font-size: 30px;
-      }
+      
       .h2-work{
      
         font-size: 32px;
@@ -476,6 +460,14 @@ font-size: 20px;
   width: auto;
   height: auto;
   margin-left: 0px !important;
+}
+.p-about{
+  font-size: 20px; font-weight: bold;
+}
+.span-about{
+  font-size: 29px;
+  font-weight: bold;
+  color: #008000ae;
 }
 /* end about_table */
 /* background */
