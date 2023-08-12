@@ -496,22 +496,78 @@ font-size: 20px;
   margin-left: 0px !important;
 }
 .video_table .priec_box {
-  margin: 0%;
+
   margin-left: 0px !important;
   border-radius: 30px;
- 
-  padding: 3px;
+  padding: 30px;
   margin-bottom: 20px;
-  
   overflow: hidden;
 }
 
 .square-video-container {
   position: relative;
-
-  padding-top: 54%; /* Create a square container using padding */
+  padding-top: 20%; /* Create a square container using padding */
+  padding-bottom: 90%; /* Create a square container using padding */
+  padding-left: 70%; /* Create a square container using padding */
+  padding-right: 70%; /* Create a square container using padding */
   overflow: hidden;
+  left: 60px !important;
 }
+
+     /* Media Query for Mobile Devices */
+     @media (max-width: 480px) {
+      .square-video-container {
+        position: relative;
+        padding-top: 20%; /* Create a square container using padding */
+        padding-bottom: 90%; /* Create a square container using padding */
+        padding-left: 70%; /* Create a square container using padding */
+        padding-right: 70%; /* Create a square container using padding */
+        overflow: hidden;
+        left: 60px !important;
+      }
+   
+    }
+    
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+      .square-video-container {
+        position: relative;
+        padding-top: 20%; /* Create a square container using padding */
+        padding-bottom: 90%; /* Create a square container using padding */
+        padding-left: 70%; /* Create a square container using padding */
+        padding-right: 70%; /* Create a square container using padding */
+        overflow: hidden;
+        left: 60px !important;
+      }
+    }
+    
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+      .ht-popup-video .icon {
+        position: relative;
+        padding-top: 20%; /* Create a square container using padding */
+        padding-bottom: 90%; /* Create a square container using padding */
+        padding-left: 70%; /* Create a square container using padding */
+        padding-right: 70%; /* Create a square container using padding */
+        overflow: hidden;
+        left: 60px !important;
+      
+      
+      }
+    }
+    
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px){
+      .square-video-container {
+        position: relative;
+        padding-top: 20%; /* Create a square container using padding */
+        padding-bottom: 90%; /* Create a square container using padding */
+        padding-left: 70%; /* Create a square container using padding */
+        padding-right: 70%; /* Create a square container using padding */
+        overflow: hidden;
+        left: 60px !important;
+      }
+    }
 
 .square-video-container video {
   position: absolute;
@@ -521,13 +577,18 @@ font-size: 20px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.modal-content{
+  background:none ;
+  border: none;
+}
      /* Media Query for Mobile Devices */
      @media (max-width: 480px) {
       .ht-popup-video .icon {
  
         height: 60px !important;
         width: 60px !important;
-        color: #fff !important;
+        background-color: #008000c9!important;
+        color: #d4ff00 !important;
         text-align: center !important;
         line-height: 60px !important;
         font-size: 31px !important;
@@ -543,7 +604,8 @@ font-size: 20px;
        
         height: 60px !important;
         width: 60px !important;
-        color: #fff !important;
+        background-color: #008000c9!important;
+        color: #d4ff00 !important;
         text-align: center !important;
         line-height: 60px !important;
         font-size: 31px !important;
@@ -558,7 +620,8 @@ font-size: 20px;
         
         height: 60px !important;
         width: 60px !important;
-        color: #fff !important;
+        background-color: #008000c9!important;
+        color: #d4ff00 !important;
         text-align: center !important;
         line-height: 60px !important;
         font-size: 31px !important;
@@ -574,7 +637,8 @@ font-size: 20px;
     
         height: 60px !important;
         width: 60px !important;
-        color: #fff !important;
+        background-color: #008000c9!important;
+        color: #d4ff00 !important;
         text-align: center !important;
         line-height: 60px !important;
         font-size: 31px !important;
@@ -588,12 +652,13 @@ font-size: 20px;
       .ht-popup-video .icon {
          height: 60px !important;
         width: 60px !important;
-        color: #fff !important;
+        background-color: #008000c9!important;
+        color: #d4ff00 !important;
         text-align: center !important;
         line-height: 60px !important;
         font-size: 31px !important;
         position: absolute !important;
-        left: 100px !important;
+        left: 75px !important;
     
 }
     }
